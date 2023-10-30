@@ -3,30 +3,26 @@ Final Project for Monash University Data Analytics Bootcamp
 
 ***
 
-### To solve:
+### Scope:
 
-Create a model to predict the likelihood that a news article is fake or real<br>
-
-Everyone - create initial analysis<br>
-Asha and Jyotsna can create a machine learning model and create test<br><br>
-
-
-Create a basic data analysis and upload to github for EDA<br>
-Create a ML model and create a test<br> 
-Combine Tableau wth Javascript and connection through Flask or using Teapot to input data<br>
-
+With the lines of truth being blurred between real and fake in the daily news, every day and people becoming more reliant on social media for their news sources - it is more important than ever to be able to differentiate the two for reliable and accurate new sources. In light of this, we have created a model to predict the likelihood that a news article is fake or real<br>
 
 ### TOOLS<br>
 - MongoDB
 - Python
-- matplotlib
 - pandas
-- Flask<br><br><br>
+- matplotlib
+- Scikit learn
+- Flask
+- Tableau<br><br><br>
 
 
 ### STRUCTURE
 
 _Backend_<br>
+
+Everyone - Create a basic data analysis and upload to github for EDA<br><br>
+
 Jyotsna and Asha backend - cleanse data, modelling, creating csv for analysis -> for user recommendation, need user preference dataset<br>
 
 - Cleaning with MongoDB(?)
@@ -35,6 +31,7 @@ Jyotsna and Asha backend - cleanse data, modelling, creating csv for analysis ->
 - Sentiment analysis - textblob and vader use natural language processing techniques
 - Word frequency distribution
 - Create a new file for each model
+- Asha and Jyotsna can create a machine learning model and create test<br><br>
 
 _Frontend_<br>
 - Javascript, HTML, CSS<br>
@@ -45,6 +42,7 @@ _Frontend_<br>
 Priya to create a dashboard, combine tableau with Javascript and connection through Flask
 - Create multiple routes or single routes
 - User interaction through Java, anything that needs interaction will be in the dashboard
+- Combine Tableau wth Javascript and connection through Flask or using Teapot to input data<br>
 - Taryn to create analysis in Tableau 
  
 
