@@ -54,3 +54,12 @@ Priya - Create Flask API
 - Gather user input for model
 Save model in h5 -> In Python code for flask where it's reading the model and then (as it is used in the test file) preprocessing, limitization, use that code to predict
 Taryn - Story/Tableau Visualization template
+
+### TO COMPLETE BY 5/11
+Jyotsna - Update your tasks on the model - LSDM - RNN Model giving high accuracy, check against random inputs. Help Priya with Flask  <br>
+Asha -  Update ReadME file, Correct EDA and Integrated Jyotsnas file, review model - need to complete further testing, 3 x trials <br>
+Priya - Update ReadME file Today create Flask try to get input - random inputs in Python (backend) <br>
+Taryn - Update ReadME file Interactive selections, control if statements Create wordcloud <br> 
+
+### TO COMPLETE BY 6/11
+Flask and front-end website ready, Tableau link, powerpoint presentation content ready to put into template 
