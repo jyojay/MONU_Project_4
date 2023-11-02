@@ -12,6 +12,7 @@ With the lines of truth being blurred between real and fake in the daily news, e
 - Python
 - pandas
 - matplotlib
+- seaborn
 - Scikit learn
 - Flask
 - Tableau<br><br><br>
@@ -46,10 +47,10 @@ Priya to create a dashboard, combine tableau with Javascript and connection thro
 - Taryn to create analysis in Tableau 
  
 
-### TO COMPLETE 31/10
-Decide on the best logic for clean csv file 
-Once we have the code ready and limitized
-Start tokenization
-- Sentiment analysis
-- Word frequency distribution
-- Decide whether to create multiple routes or single routes
+### TO COMPLETE 2/11
+Asha - to create RNN or LSTM model
+Jyotsna - to create RNN or LSTM model model
+Priya - Create Flask API
+- Gather user input for model
+Save model in h5 -> In Python code for flask where it's reading the model and then (as it is used in the test file) preprocessing, limitization, use that code to predict
+Taryn - Story/Tableau Visualization template
