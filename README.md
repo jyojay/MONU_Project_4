@@ -64,7 +64,7 @@ Exploratory Data Analysis was done in the following files: `DataExploration.ipyn
   - Both true and fake news articles generally have a slightly positive tone, with fake news showing a higher average polarity.
   - Fake news articles exhibit a higher level of subjectivity, indicating more opinion-based content.
   - A higher proportion of negatively toned articles were found in fake news compared to true news.
-  - Politically charged words were often associated with negative sentiments in fake news.
+  - Politically charged words were often associated with negative sentiments in fake news ("trump", "clinton", "obama", "police", "media").
 
 ------------------------------------------- TO BE UPDATED BY ASHA & JYOTSNA ------------------------------------------- 
 
