@@ -15,21 +15,12 @@ The key points about the dataset:
 - **Volume**: The dataset provides a substantial number of articles, offering a robust foundation for training our machine learning model.
 
 ## Toolkit
+- Python (pandas, matplotlib, seaborn, Scikit-learn)
+- Flask for web application backend
+- Tableau for advanced data visualizations
+- HTML, Javascript for frontend web development
 
 
-### Scope:
-
-we have created a model to predict the likelihood that a news article is fake or real<br>
-
-### TOOLS<br>
-- MongoDB
-- Python
-- pandas
-- matplotlib
-- seaborn
-- Scikit learn
-- Flask
-- Tableau<br><br><br>
 
 
 ### STRUCTURE
