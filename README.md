@@ -20,7 +20,7 @@ The key points about the dataset:
 - Tableau for advanced data visualizations
 - HTML, Javascript for frontend web development
 
-------------------------------------------- TO BE UPDATED ------------------------------------------- 
+------------------------------------------- TO BE UPDATED BY EVERYONE ------------------------------------------- 
  
 ## File Structure
 This repository is organized into several directories and key files as follows:
@@ -32,11 +32,7 @@ This repository is organized into several directories and key files as follows:
 - `/Output/`: Contains output files such as processed datasets or results from the analysis.
 - `README.md`: Documentation explaining the project, its structure, and how to run it.
 
-------------------------------------------- TO BE UPDATED ------------------------------------------- 
-
-
-
-------------------------------------------------- WORKING ON ---------------------------------------------------------------------
+------------------------------------------- TO BE UPDATED BY EVERYONE ------------------------------------------- 
 
 ## Structure
 
@@ -64,7 +60,7 @@ The EDA process involved examining and summarizing the main characteristics of t
   - A higher proportion of negatively toned articles were found in fake news compared to true news.
   - Politically charged words were often associated with negative sentiments in fake news.
 
-------------------------------------------- TO BE UPDATED ------------------------------------------- 
+------------------------------------------- TO BE UPDATED BY ASHA & JYOTSNA ------------------------------------------- 
 
 #### Data Preprocessing for Modeling
 Detailed steps on how the data was preprocessed for the machine learning models, including cleaning, feature extraction, and normalization.
@@ -72,7 +68,10 @@ Detailed steps on how the data was preprocessed for the machine learning models,
 #### Machine Learning Models
 Explanation of the machine learning models developed to classify news articles, including the model types, training process, and evaluation metrics used.
 
-------------------------------------------- TO BE UPDATED ------------------------------------------- 
+------------------------------------------- TO BE UPDATED BY ASHA & JYOTSNA ------------------------------------------- 
+
+
+------------------------------------------- TO BE UPDATED BY PRYJA & TARYN ------------------------------------------- 
 
 ### Frontend
 - Interactive dashboard for user engagement and visualization
@@ -84,9 +83,7 @@ Explanation of the machine learning models developed to classify news articles, 
 
 ## Usage
 
-
-------------------------------------------------- WORKING ON ---------------------------------------------------------------------
-
+------------------------------------------- TO BE UPDATED BY PRYJA & TARYN ------------------------------------------- 
 
 
 
@@ -98,7 +95,10 @@ Explanation of the machine learning models developed to classify news articles, 
 
 
 
-------------------------------------------------- TO DELETE  ---------------------------------------------------------------------
+
+
+
+------------------------------------------------- TO DELETE - OLD VERSION  ---------------------------------------------------------------------
 
 
 ### STRUCTURE
@@ -140,4 +140,4 @@ Taryn - Update ReadME file Interactive selections, control if statements Create 
 ### TO COMPLETE BY 6/11
 Flask and front-end website ready, Tableau link, powerpoint presentation content ready to put into template 
 
-------------------------------------------------- TO DELETE  ---------------------------------------------------------------------
+------------------------------------------------- TO DELETE - OLD VERSION  ----------------------------------------------------------------------
