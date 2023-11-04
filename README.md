@@ -39,11 +39,17 @@ This repository is organized into several directories and key files as follows:
 ### Backend
 
 #### Exploratory Data Analysis (EDA)
-The EDA process involved examining and summarizing the main characteristics of the dataset, often using visual methods. It provided a better understanding of the data's distribution and uncovered patterns, anomalies, and relationships between variables.
+The EDA process involved examining and summarizing the main characteristics of the dataset, often using visual methods. 
+It provided a better understanding of the data's distribution and uncovered patterns, anomalies, and relationships between variables.
+Exploratory Data Analysis was done in the following files: `DataExploration.ipynb` and  `SentimentAnalysis.ipynb`.
 
+------------------------------------------- TO BE UPDATED BY JYOTSNA ------------------------------------------- 
 
+##### Data Exploration (`DataExploration.ipynb`)
 
-##### Sentiment Analysis
+------------------------------------------- TO BE UPDATED BY JYOTSNA ------------------------------------------- 
+
+##### Sentiment Analysis (`SentimentAnalysis.ipynb`) 
 - **Objective**: To assess the emotional tone and subjectivity of news articles, differentiating between true and fake news.
 - **Process**:
   - Loaded and cleaned articles from a cleaned CSV file containing both fake and true news, standardizing text for analysis.
