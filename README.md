@@ -15,12 +15,47 @@ The key points about the dataset:
 - **Volume**: The dataset provides a substantial number of articles, offering a robust foundation for training our machine learning model.
 
 ## Toolkit
-- Python (pandas, matplotlib, seaborn, Scikit-learn)
+- Python (pandas, pathlib, matplotlib, numpy, seaborn, Scikit-learn, nltk, spacy)
 - Flask for web application backend
 - Tableau for advanced data visualizations
 - HTML, Javascript for frontend web development
 
 
+
+------------------------------------------------- WORKING ON ---------------------------------------------------------------------
+
+## Structure
+
+### Backend
+- Data cleansing and preprocessing for modeling
+- Tokenization
+- Word frequency analysis
+- Sentiment analysis using NLP techniques
+- Development of machine learning models to classify news articles
+
+### Frontend
+- Interactive dashboard for user engagement and visualization
+- Integration of Flask API for dynamic data handling
+- Use of Tableau for data visualization components
+
+## Setup and Installation
+Detail the required steps to install and run your project locally. This might include:
+
+
+------------------------------------------------- WORKING ON ---------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------- TO DELETE  ---------------------------------------------------------------------
 
 
 ### STRUCTURE
@@ -68,3 +103,5 @@ Taryn - Update ReadME file Interactive selections, control if statements Create 
 
 ### TO COMPLETE BY 6/11
 Flask and front-end website ready, Tableau link, powerpoint presentation content ready to put into template 
+
+------------------------------------------------- TO DELETE  ---------------------------------------------------------------------
