@@ -5,6 +5,15 @@ Submitted for Monash University Bootcamp Project 4.
 ## Description
 With the lines of truth being blurred between real and fake in the daily news, every day and people becoming more reliant on social media for their news sources - it is more important than ever to be able to differentiate the two for reliable and accurate new sources. In light of this, we've built a straightforward and effective model using data analysis and machine learning to judge news stories. Our HTML website, powered by Flask, lets users easily check articles. Simply put in the text, hit submit, and get an immediate real-or-fake verdict.
 
+## Dataset
+Our analysis is grounded on a comprehensive dataset that separates authentic news from fake stories. We sourced our data from a widely-recognized collection available on Kaggle, which comprises two CSV files—one with verified news and the other with false reports. 
+
+The key points about the dataset:
+- **Source**: [Fake and Real News Dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset) on Kaggle
+- **Composition**: Two CSV files, one labeled 'Fake' and the other 'True'.
+- **Data Fields**: Each record includes the title, text, subject, and date of the news article.
+- **Volume**: The dataset provides a substantial number of articles, offering a robust foundation for training our machine learning model.
+
 ## Toolkit
 
 
