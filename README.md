@@ -20,7 +20,7 @@ The key points about the dataset:
 - Tableau for advanced data visualizations
 - HTML, Javascript for frontend web development
 
-------------------------------------------------- TO BE UPDATED ---------------------------------------------------------------------
+------------------------------------------- TO BE UPDATED ------------------------------------------- 
  
 ## File Structure
 This repository is organized into several directories and key files as follows:
@@ -32,22 +32,47 @@ This repository is organized into several directories and key files as follows:
 - `/Output/`: Contains output files such as processed datasets or results from the analysis.
 - `README.md`: Documentation explaining the project, its structure, and how to run it.
 
-------------------------------------------------- TO BE UPDATED ---------------------------------------------------------------------
+------------------------------------------- TO BE UPDATED ------------------------------------------- 
 
 
 
 ------------------------------------------------- WORKING ON ---------------------------------------------------------------------
 
-
-
 ## Structure
 
 ### Backend
-- Data cleansing and preprocessing for modeling
-- Tokenization
-- Word frequency analysis
-- Sentiment analysis using NLP techniques
-- Development of machine learning models to classify news articles
+
+#### Exploratory Data Analysis (EDA)
+The EDA process involved examining and summarizing the main characteristics of the dataset, often using visual methods. It provided a better understanding of the data's distribution and uncovered patterns, anomalies, and relationships between variables.
+
+
+
+##### Sentiment Analysis
+- **Objective**: To assess the emotional tone and subjectivity of news articles, differentiating between true and fake news.
+- **Process**:
+  - Loaded and cleaned articles from a cleaned CSV file containing both fake and true news, standardizing text for analysis.
+  - Tokenized articles using spaCy and NLTK to break down text into individual words, removing stopwords and non-alphabetic characters.
+  - Calculated word frequency distribution to identify the most common words in true and fake news.
+  - Generated word clouds for a visual depiction of frequent words in each news type.
+  - Analyzed polarity and subjectivity using TextBlob to evaluate the emotional content and the amount of personal opinion in articles.
+  - Categorized articles based on polarity scores and compared sentiment distribution between true and fake news.
+  - Plotted histograms to show the polarity distribution, revealing sentiment trends within articles.
+  - Calculated and compared average polarity and subjectivity scores between true and fake news.
+- **Findings**:
+  - Both true and fake news articles generally have a slightly positive tone, with fake news showing a higher average polarity.
+  - Fake news articles exhibit a higher level of subjectivity, indicating more opinion-based content.
+  - A higher proportion of negatively toned articles were found in fake news compared to true news.
+  - Politically charged words were often associated with negative sentiments in fake news.
+
+------------------------------------------- TO BE UPDATED ------------------------------------------- 
+
+#### Data Preprocessing for Modeling
+Detailed steps on how the data was preprocessed for the machine learning models, including cleaning, feature extraction, and normalization.
+
+#### Machine Learning Models
+Explanation of the machine learning models developed to classify news articles, including the model types, training process, and evaluation metrics used.
+
+------------------------------------------- TO BE UPDATED ------------------------------------------- 
 
 ### Frontend
 - Interactive dashboard for user engagement and visualization
@@ -55,7 +80,9 @@ This repository is organized into several directories and key files as follows:
 - Use of Tableau for data visualization components
 
 ## Setup and Installation
-Detail the required steps to install and run your project locally. This might include:
+
+
+## Usage
 
 
 ------------------------------------------------- WORKING ON ---------------------------------------------------------------------
@@ -103,13 +130,6 @@ Priya to create a dashboard, combine tableau with Javascript and connection thro
 - Taryn to create analysis in Tableau 
  
 
-### TO COMPLETE 2/11
-Asha - to create RNN or LSTM model
-Jyotsna - to create RNN or LSTM model model
-Priya - Create Flask API
-- Gather user input for model
-Save model in h5 -> In Python code for flask where it's reading the model and then (as it is used in the test file) preprocessing, limitization, use that code to predict
-Taryn - Story/Tableau Visualization template
 
 ### TO COMPLETE BY 5/11
 Jyotsna - Update your tasks on the model - LSDM - RNN Model giving high accuracy, check against random inputs. Help Priya with Flask  <br>
