@@ -39,7 +39,7 @@ This repository is organized into several directories and key files as follows:
 ### Backend
 
 #### Exploratory Data Analysis (EDA)
-The EDA process involved examining and summarizing the main characteristics of the dataset, often using visual methods. </br>
+The EDA process involved examining and summarizing the main characteristics of the dataset, often using visual methods.
 It provided a better understanding of the data's distribution and uncovered patterns, anomalies, and relationships between variables. </br>
 Exploratory Data Analysis was done in the following files: `DataExploration.ipynb` and  `SentimentAnalysis.ipynb`. </br>
 
