@@ -20,9 +20,25 @@ The key points about the dataset:
 - Tableau for advanced data visualizations
 - HTML, Javascript for frontend web development
 
+------------------------------------------------- TO BE UPDATED ---------------------------------------------------------------------
+ 
+## File Structure
+This repository is organized into several directories and key files as follows:
+- `/Resources/`: Raw CSV files of fake and true news articles used for analysis.
+- `DataExploration.ipynb`: Jupyter notebook for initial data exploration and analysis.
+- `SentimentAnalysis.ipynb`: Jupyter notebook for conducting sentiment analysis on the dataset.
+- `DataModelling_AK.ipynb`: Notebook containing machine learning model for data prediction using RNN - LSTM model development.
+- `DataModelling_JJ.ipynb`: Additional notebook with machine learning model for data prediction using RNN - LSTM model development.
+- `/Output/`: Contains output files such as processed datasets or results from the analysis.
+- `README.md`: Documentation explaining the project, its structure, and how to run it.
+
+------------------------------------------------- TO BE UPDATED ---------------------------------------------------------------------
+
 
 
 ------------------------------------------------- WORKING ON ---------------------------------------------------------------------
+
+
 
 ## Structure
 
