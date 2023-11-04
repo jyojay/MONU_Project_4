@@ -41,7 +41,8 @@ This repository is organized into several directories and key files as follows:
 #### Exploratory Data Analysis (EDA)
 The EDA process involved examining and summarizing the main characteristics of the dataset, often using visual methods.
 It provided a better understanding of the data's distribution and uncovered patterns, anomalies, and relationships between variables. </br>
-Exploratory Data Analysis was done in the following files: `DataExploration.ipynb` and  `SentimentAnalysis.ipynb`. </br>
+The EDA was conducted in two distinct Jupyter notebooks: DataExploration.ipynb and SentimentAnalysis.ipynb.  </br>
+DataExploration.ipynb focused on initial data exploration, including data cleaning and standardization, while SentimentAnalysis.ipynb delved deeper into the emotional tone of the articles through sentiment analysis, utilizing natural language processing techniques to assess the polarity and subjectivity of the text.
 
 ------------------------------------------- TO BE UPDATED BY JYOTSNA ------------------------------------------- 
 
