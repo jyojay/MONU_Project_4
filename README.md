@@ -1,11 +1,16 @@
-# MONU_Project_4
-Final Project for Monash University Data Analytics Bootcamp
+# Real vs Fake News Classification
 
-***
+Submitted for Monash University Bootcamp Project 4.
+
+## Description
+With the lines of truth being blurred between real and fake in the daily news, every day and people becoming more reliant on social media for their news sources - it is more important than ever to be able to differentiate the two for reliable and accurate new sources. In light of this, we've built a straightforward and effective model using data analysis and machine learning to judge news stories. Our HTML website, powered by Flask, lets users easily check articles. Simply put in the text, hit submit, and get an immediate real-or-fake verdict.
+
+## Toolkit
+
 
 ### Scope:
 
-With the lines of truth being blurred between real and fake in the daily news, every day and people becoming more reliant on social media for their news sources - it is more important than ever to be able to differentiate the two for reliable and accurate new sources. In light of this, we have created a model to predict the likelihood that a news article is fake or real<br>
+we have created a model to predict the likelihood that a news article is fake or real<br>
 
 ### TOOLS<br>
 - MongoDB
