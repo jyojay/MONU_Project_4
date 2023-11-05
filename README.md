@@ -108,10 +108,10 @@ Explanation of the machine learning models developed to classify news articles, 
 
 
 
-<img width="1440" alt="Website image" src="https://github.com/Tarynfo1/belly-button-challenge/blob/392a69e46dcbf6a7225bef728568b1e3a9326be7/Images/bellybuttonclean.png">
+<img width="1440" alt="Website image" src="https://github.com/jyojay/MONU_Project_4/blob/e2137b115879e6c0b7127c694249c770a8ce8081/ToRemove%20(Working%20files)/Taryn%20Fordyce/real_news_sentiment.png">
 
 
-<img width="1440" alt="Tableau data analysis image" src="https://github.com/Tarynfo1/belly-button-challenge/blob/392a69e46dcbf6a7225bef728568b1e3a9326be7/Images/bellybuttonclean.png">
+<img width="1440" alt="Tableau data analysis image" src="https://github.com/jyojay/MONU_Project_4/blob/e2137b115879e6c0b7127c694249c770a8ce8081/ToRemove%20(Working%20files)/Taryn%20Fordyce/no_words_per_article.png">
 
 
 
