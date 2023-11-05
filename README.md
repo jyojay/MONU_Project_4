@@ -147,35 +147,6 @@ The link can be be found [here](https://public.tableau.com/views/P4_169907861630
 ------------------------------------------------- TO DELETE - OLD VERSION  ---------------------------------------------------------------------
 
 
-### STRUCTURE
-
-_Backend_<br>
-
-Everyone - Create a basic data analysis and upload to github for EDA<br><br>
-
-Jyotsna and Asha backend - cleanse data, modelling, creating csv for analysis -> for user recommendation, need user preference dataset<br>
-
-- Cleaning with MongoDB(?)
-- Limitization (remove special characters etc)
-- Tokenization after cleaning
-- Sentiment analysis - textblob and vader use natural language processing techniques
-- Word frequency distribution
-- Create a new file for each model
-- Asha and Jyotsna can create a machine learning model and create test<br><br>
-
-_Frontend_<br>
-- Javascript, HTML, CSS<br>
-- Flask API<br>
-- Tableau<br>
-
-
-Priya to create a dashboard, combine tableau with Javascript and connection through Flask
-- Create multiple routes or single routes
-- User interaction through Java, anything that needs interaction will be in the dashboard
-- Combine Tableau wth Javascript and connection through Flask or using Teapot to input data<br>
-- Taryn to create analysis in Tableau 
- 
-
 
 ### TO COMPLETE BY 5/11
 Jyotsna - Update your tasks on the model - LSDM - RNN Model giving high accuracy, check against random inputs. Help Priya with Flask  <br>
