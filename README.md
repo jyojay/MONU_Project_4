@@ -104,7 +104,7 @@ Explanation of the machine learning models developed to classify news articles, 
 
 ------------------------------------------- TO BE UPDATED BY PRYJA & TARYN ------------------------------------------- 
 Screenshot of html page (**THIS IS JUST A PLACEHOLDER**)
-<img width="1440" alt="Website image" src="https://github.com/jyojay/MONU_Project_4/blob/e2137b115879e6c0b7127c694249c770a8ce8081/ToRemove%20(Working%20files)/Taryn%20Fordyce/real_news_sentiment.png"><br><br>
+<img width="1300" alt="Website image" src="https://github.com/jyojay/MONU_Project_4/blob/e2137b115879e6c0b7127c694249c770a8ce8081/ToRemove%20(Working%20files)/Taryn%20Fordyce/real_news_sentiment.png"><br><br>
 
 The word analysis page created in Tableau using a variety of visual techniques including word cloud analysis, sentiment analysis and a comprehensive breakdown of the visulisations<br>
 
@@ -112,7 +112,7 @@ The link can be be found [here](https://public.tableau.com/views/P4_169907861630
 
 
 
-<img width="1440" alt="Tableau data analysis image" src="https://github.com/jyojay/MONU_Project_4/blob/e2137b115879e6c0b7127c694249c770a8ce8081/ToRemove%20(Working%20files)/Taryn%20Fordyce/no_words_per_article.png">
+<img width="1440" alt="Tableau data analysis image" src="https://github.com/jyojay/MONU_Project_4/blob/ac061a849b0c0064e2dec6e8a02635e56a8bef3a/ToRemove%20(Working%20files)/Taryn%20Fordyce/tableau%20page.png">
 
 
 
