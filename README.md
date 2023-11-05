@@ -57,15 +57,32 @@ The EDA was conducted in two distinct Jupyter notebooks: `DataExploration.ipynb`
   - Tokenized articles using spaCy and NLTK to break down text into individual words, removing stopwords and non-alphabetic characters.
   - Calculated word frequency distribution to identify the most common words in true and fake news.
   - Generated word clouds for a visual depiction of frequent words in each news type.
+    
+   ![1](https://github.com/jyojay/MONU_Project_4/assets/134185577/4fca347b-ca77-4758-bf92-2146835aa456)
+    
   - Analyzed polarity and subjectivity using TextBlob to evaluate the emotional content and the amount of personal opinion in articles.
   - Categorized articles based on polarity scores and compared sentiment distribution between true and fake news.
+
+    ![2](https://github.com/jyojay/MONU_Project_4/assets/134185577/bb10da28-03c8-4651-80be-4843742af99f)
+
   - Plotted histograms to show the polarity distribution, revealing sentiment trends within articles.
+ 
+    ![3](https://github.com/jyojay/MONU_Project_4/assets/134185577/240b32ac-5e2e-4b92-9b99-f12bb7f47652)
+
   - Calculated and compared average polarity and subjectivity scores between true and fake news.
+    
 - **Findings**:
   - Both true and fake news articles generally have a slightly positive tone, with fake news showing a higher average polarity.
+
+    ![4](https://github.com/jyojay/MONU_Project_4/assets/134185577/7087c3f1-31d9-43fa-ac65-f69edd0b5fe1)
+
   - Fake news articles exhibit a higher level of subjectivity, indicating more opinion-based content.
   - A higher proportion of negatively toned articles were found in fake news compared to true news.
   - Politically charged words were often associated with negative sentiments in fake news ("trump", "clinton", "obama", "police", "media").
+
+   ![Uploading 5.jpg…]()
+
+    
 
 ------------------------------------------- TO BE UPDATED BY ASHA & JYOTSNA ------------------------------------------- 
 
