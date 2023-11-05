@@ -92,7 +92,7 @@ Explanation of the machine learning models developed to classify news articles, 
 -
 -
 -
-- For data visualisation - further cleansed data into smaller filetypes for use in Tableau, such that irrelevant data was removed and columns were relabelled for ease of comprehension
+- For data visualisation involved further cleansed data into smaller filetypes for use in Tableau, such that irrelevant data was removed and columns were relabelled for ease of comprehension
 - Designed each worksheet with a visualisation taken from the clean data sets and compiled into relevant dashboards
 - Created dashboards for each analysis and model created and differentiated data from 
 - Wrote a comprehensive and detailed data analysis per each visualisation and an intepretation of the results
@@ -103,12 +103,13 @@ Explanation of the machine learning models developed to classify news articles, 
 ## Usage
 
 ------------------------------------------- TO BE UPDATED BY PRYJA & TARYN ------------------------------------------- 
+Screenshot of html page (**THIS IS JUST A PLACEHOLDER**)
+<img width="1440" alt="Website image" src="https://github.com/jyojay/MONU_Project_4/blob/e2137b115879e6c0b7127c694249c770a8ce8081/ToRemove%20(Working%20files)/Taryn%20Fordyce/real_news_sentiment.png"><br><br>
 
+The word analysis page created in Tableau using a variety of visual techniques including word cloud analysis, sentiment analysis and a comprehensive breakdown of the visulisations<br>
 
+The link can be be found [here](https://public.tableau.com/views/P4_16990786163050/Homepage?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)
 
-
-
-<img width="1440" alt="Website image" src="https://github.com/jyojay/MONU_Project_4/blob/e2137b115879e6c0b7127c694249c770a8ce8081/ToRemove%20(Working%20files)/Taryn%20Fordyce/real_news_sentiment.png">
 
 
 <img width="1440" alt="Tableau data analysis image" src="https://github.com/jyojay/MONU_Project_4/blob/e2137b115879e6c0b7127c694249c770a8ce8081/ToRemove%20(Working%20files)/Taryn%20Fordyce/no_words_per_article.png">
