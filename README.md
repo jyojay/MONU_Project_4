@@ -17,7 +17,7 @@ The key points about the dataset:
 ## Toolkit
 - Python (pandas, pathlib, matplotlib, numpy, seaborn, Scikit-learn, nltk, spacy)
 - Flask for web application backend
-- Tableau for advanced data visualizations
+- Tableau for advanced data visualizations and data analysis
 - HTML, Javascript for frontend web development
 
 ------------------------------------------- TO BE UPDATED BY EVERYONE ------------------------------------------- 
@@ -85,9 +85,19 @@ Explanation of the machine learning models developed to classify news articles, 
 ### Frontend
 - Interactive dashboard for user engagement and visualization
 - Integration of Flask API for dynamic data handling
-- Use of Tableau for data visualization components
+- Use of Tableau for data visualization components and comprehensive analysis
 
 ## Setup and Installation
+- 
+-
+-
+-
+- For data visualisation - further cleansed data into smaller filetypes for use in Tableau, such that irrelevant data was removed and columns were relabelled for ease of comprehension
+- Designed each worksheet with a visualisation taken from the clean data sets and compiled into relevant dashboards
+- Created dashboards for each analysis and model created and differentiated data from 
+- Wrote a comprehensive and detailed data analysis per each visualisation and an intepretation of the results
+- Compiled all dashboards into a story to be linked to the website incorporating the model
+- Designed color theme, imagery and stylization.
 
 
 ## Usage
@@ -97,6 +107,11 @@ Explanation of the machine learning models developed to classify news articles, 
 
 
 
+
+<img width="1440" alt="Website image" src="https://github.com/Tarynfo1/belly-button-challenge/blob/392a69e46dcbf6a7225bef728568b1e3a9326be7/Images/bellybuttonclean.png">
+
+
+<img width="1440" alt="Tableau data analysis image" src="https://github.com/Tarynfo1/belly-button-challenge/blob/392a69e46dcbf6a7225bef728568b1e3a9326be7/Images/bellybuttonclean.png">
 
 
 
