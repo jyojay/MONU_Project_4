@@ -70,17 +70,21 @@ The EDA was conducted in two distinct Jupyter notebooks: `DataExploration.ipynb`
     ![3](https://github.com/jyojay/MONU_Project_4/assets/134185577/240b32ac-5e2e-4b92-9b99-f12bb7f47652)
 
   - Calculated and compared average polarity and subjectivity scores between true and fake news.
+ 
+    ![4](https://github.com/jyojay/MONU_Project_4/assets/134185577/7087c3f1-31d9-43fa-ac65-f69edd0b5fe1)
     
 - **Findings**:
   - Both true and fake news articles generally have a slightly positive tone, with fake news showing a higher average polarity.
 
-    ![4](https://github.com/jyojay/MONU_Project_4/assets/134185577/7087c3f1-31d9-43fa-ac65-f69edd0b5fe1)
+    
 
   - Fake news articles exhibit a higher level of subjectivity, indicating more opinion-based content.
   - A higher proportion of negatively toned articles were found in fake news compared to true news.
   - Politically charged words were often associated with negative sentiments in fake news ("trump", "clinton", "obama", "police", "media").
+  
+  ![5](https://github.com/jyojay/MONU_Project_4/assets/134185577/b4324c5f-c4d8-4f7d-ae1e-b64827fe6d35)
 
-   ![Uploading 5.jpg…]()
+   
 
     
 
