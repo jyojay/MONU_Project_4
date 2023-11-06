@@ -27,10 +27,18 @@ This repository is organized into several directories and key files as follows:
 - `/Resources/`: Raw CSV files of fake and true news articles used for analysis.
 - `DataExploration.ipynb`: Jupyter notebook for initial data exploration and analysis.
 - `SentimentAnalysis.ipynb`: Jupyter notebook for conducting sentiment analysis on the dataset.
-- `DataModelling_AK.ipynb`: Notebook containing machine learning model for data prediction using RNN - LSTM model development.
-- `DataModelling_JJ.ipynb`: Additional notebook with machine learning model for data prediction using RNN - LSTM model development.
+- `DataModelling_SVM_NB.ipynb`: Notebook containing code for machine learning modelling using Naive Bayes and Standard Vector Machines classifiers. This also includes unit testing for the preferred successful model.
+- `DataModelling_LSTM.ipynb`: Notebook containing code for Neural Network modelling using RNN-LSTM/BiLSTM. This also includes unit testing for the successful model.
+- `model_svm.pkl`: Standard Vector Machines classification model.
+- `model_naive.pkl`: Naive Bayes classification model.
+- `app.py`: **PRIYA TO UPDATE**
+- ``: Tableau workbook download. **TARYN TO UPDATE**
 - `/Output/`: Contains output files such as processed datasets or results from the analysis.
 - `README.md`: Documentation explaining the project, its structure, and how to run it.
+
+### Additional deliverables:
+- `https://drive.google.com/file/d/1R45rcz-93oGBhoTa8MC-qz4x-zxDa8XL/view?usp=sharing`: BiLSTM model
+- Link to Tableau page: **TARYN to include**
 
 ------------------------------------------- TO BE UPDATED BY EVERYONE ------------------------------------------- 
 
@@ -88,7 +96,8 @@ The EDA was conducted in two distinct Jupyter notebooks: `DataExploration.ipynb`
 - 
 
 #### Newural Network Models
-
+##### Data Preperation for model training
+- 
 #### Limitations
 
 ------------------------------------------- TO BE UPDATED BY PRYJA & TARYN ------------------------------------------- 
