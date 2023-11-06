@@ -41,8 +41,8 @@ This repository is organized into several directories and key files as follows:
 - `README.md`: Documentation explaining the project, its structure, and how to run it.
 
 ### Additional deliverables:
-- `https://drive.google.com/file/d/1R45rcz-93oGBhoTa8MC-qz4x-zxDa8XL/view?usp=sharing`: BiLSTM model
-- `[here](https://public.tableau.com/views/P4_16990786163050/Homepage?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)`: Link to Tableau page
+- https://drive.google.com/file/d/1R45rcz-93oGBhoTa8MC-qz4x-zxDa8XL/view?usp=sharing :   : BiLSTM model
+- https://public.tableau.com/views/P4_16990786163050/Homepage?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link : Link to Tableau page
 
 ------------------------------------------- TO BE UPDATED BY EVERYONE ------------------------------------------- 
 
