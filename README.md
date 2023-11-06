@@ -109,21 +109,49 @@ Since we had a two-group classification problem at hand vis-a-vis Fake and True,
 #### Data Preperation for model training
 Data which was tokenized, lemmatized and from which stop words and special characters were removed in the EDA step was taken as an input for both ML and RNN-LSTM modules.</br>
 
-**ML Models** </br>
+1) **ML Models** </br>
 Input data was vectorized using SKLearn TfidfVectorizer</br>
 
-**RNN-LSTM Models**</br>
+2) **RNN-LSTM Models**</br>
 The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer and then padded using pad_sequences.</br>
 
-**Jupyter notebook on desktopn was used for ML models whereas Google Colab was used for training Neural Network Models due to high processing requirements.** </br>
+**Jupyter notebook on desktop was used for ML models whereas Google Colab was used for training Neural Network Models due to GPU processing requirements.** </br>
 
-#### Mmodel training and Results
-**ML Models** </br>
-Input data was vectorized using SKLearn TfidfVectorizer
+#### Model training and Results
+1) **ML Models** 
+  -	The data was split into Train and Test data at 3:1 ratio.
+  -	Target used: class column values which were 0 or 1 depending on Fake or True news  
+  -	Features used: text column values with the news text
+  - **Naive Bayes Model** </br></br>
+  ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/1f9d2d43-2b20-49a3-b196-6a69c027a5f4) </br></br>
+  
+  **Result**</br></br>
+  ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/23c92cd3-6f76-4517-8543-af6eb5fc2bb9) </br></br>
 
-**RNN-LSTM Models**</br>
-The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer and then padded using pad_sequences.</br>
+  - **SVM Model** </br></br>
+![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/54fb94ba-5621-456c-b349-eee7f47feff4) </br></br>
+  **Result**</br></br>
+![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/0e872ac1-aa71-4998-9a93-c88c838cf778) </br></br>
 
+**SVM Model was observed to have a better accuracy, recall and precision**
+
+2) **RNN-LSTM Models**
+  -	The data was split into Train and Test data at 3:1 ratio.
+  -	Target used: class column values which were 0 or 1 depending on Fake or True news  
+  -	Features used: text column values with the news text
+  - **Naive Bayes Model** </br></br>
+    ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/1f9d2d43-2b20-49a3-b196-6a69c027a5f4) </br></br>
+  
+    **Result**</br></br>
+    ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/23c92cd3-6f76-4517-8543-af6eb5fc2bb9) </br></br>
+
+  - **SVM Model** </br></br>
+    ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/54fb94ba-5621-456c-b349-eee7f47feff4) </br></br>
+    
+     **Result**</br></br>
+      ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/0e872ac1-aa71-4998-9a93-c88c838cf778) </br></br>
+
+**SVM Model was observed to have a better accuracy, recall and precision**
 
 #### Limitations
 
