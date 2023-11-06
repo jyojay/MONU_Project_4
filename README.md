@@ -14,13 +14,13 @@ The key points about the dataset:
 - **Data Fields**: Each record includes the title, text, subject, and date of the news article.
 - **Volume**: The dataset provides a substantial number of articles, offering a robust foundation for training our machine learning model.
 
+------------------------------------------- TO BE UPDATED BY EVERYONE ------------------------------------------- 
+
 ## Toolkit
 - Python (pandas, pathlib, matplotlib, numpy, seaborn, Scikit-learn, nltk, spacy)
 - Flask for web application backend
 - Tableau for advanced data visualizations and data analysis
 - HTML, Javascript for frontend web development
-
-------------------------------------------- TO BE UPDATED BY EVERYONE ------------------------------------------- 
  
 ## File Structure
 This repository is organized into several directories and key files as follows:
