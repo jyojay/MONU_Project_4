@@ -17,10 +17,14 @@ The key points about the dataset:
 ------------------------------------------- TO BE UPDATED BY EVERYONE ------------------------------------------- 
 
 ## Toolkit
-- Python (pandas, pathlib, matplotlib, numpy, seaborn, Scikit-learn, nltk, spacy)
-- Flask for web application backend
+- Python (pandas, pathlib, matplotlib, numpy, seaborn, Scikit-learn, nltk, spacy, tensorflow, keras) 
+- Streamlit for web application frontend
 - Tableau for advanced data visualizations and data analysis
-- HTML, Javascript for frontend web development
+  
+## Applications/Code Editors
+- Jupyter Notebook
+- Google Colab
+- VS Code
  
 ## File Structure
 This repository is organized into several directories and key files as follows:
