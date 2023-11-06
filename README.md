@@ -50,7 +50,7 @@ This repository is organized into several directories and key files as follows:
 
 ### Backend
 
-#### Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 The EDA process involved examining and summarizing the main characteristics of the dataset, often using visual methods.
 It provided a better understanding of the data's distribution and uncovered patterns, anomalies, and relationships between variables. </br>
 The EDA was conducted in two distinct Jupyter notebooks: `DataExploration.ipynb` and `SentimentAnalysis.ipynb`.  </br>
@@ -97,7 +97,7 @@ Following these data preparation activities, the cleaned datasets were merged an
 ### Data Modelling   
 
 #### Machine Learning Models
-Since we had a two-group classification problem at hand vis-a-vis Fake and True, we started out exploring various models and zeroed out on two Machine Learning (ML) Models and two Recurrent Neural Network (RNN) models for our purpose. Ref: https://developers.google.com/machine-learning/guides/text-classification/step-2-5 </br>
+Since we had a two-group classification problem at hand vis-a-vis Fake and True, we started out exploring various models and zeroed out on two Machine Learning `(ML) Models` and two `Recurrent Neural Network (RNN)` models for our purpose. Ref: https://developers.google.com/machine-learning/guides/text-classification/step-2-5 </br>
 **ML Models** </br>
 1)	`Naïve Bayes` – This model was tried because despite its simplicity, it can handle large feature spaces, which makes them suitable for text classification where the feature set can be the size of the vocabulary. Ref: https://web.stanford.edu/class/cs124/lec/naivebayes2021.pdf
 2)	`Standard Vector Machines (SVM)` – This model was tried because of their capability to handle High dimensionality and effective decision boundaries in the form of hyperplanes.  Ref: https://www.cs.cornell.edu/people/tj/svmtcatbook/
@@ -110,13 +110,19 @@ Since we had a two-group classification problem at hand vis-a-vis Fake and True,
 Data which was tokenized, lemmatized and from which stop words and special characters were removed in the EDA step was taken as an input for both ML and RNN-LSTM modules.</br>
 
 **ML Models** </br>
-Input data was vectorized using SKLearn TfidfVectorizer
+Input data was vectorized using SKLearn TfidfVectorizer</br>
 
-**Neural Network Models**</br>
+**RNN-LSTM Models**</br>
 The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer and then padded using pad_sequences.</br>
 
-**`Jupyter notebook` on desktopn was used for ML models whereas `Google Colab` was used for training Neural Network Models due to high processing requirements.**</br>
+**Jupyter notebook on desktopn was used for ML models whereas Google Colab was used for training Neural Network Models due to high processing requirements.** </br>
 
+#### Mmodel training and Results
+**ML Models** </br>
+Input data was vectorized using SKLearn TfidfVectorizer
+
+**RNN-LSTM Models**</br>
+The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer and then padded using pad_sequences.</br>
 
 
 #### Limitations
