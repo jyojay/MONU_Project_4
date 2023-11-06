@@ -35,7 +35,8 @@ This repository is organized into several directories and key files as follows:
 - `DataModelling_LSTM.ipynb`: Notebook containing code for Neural Network modelling using RNN-LSTM/BiLSTM. This also includes unit testing for the successful model.
 - `model_svm.pkl`: Standard Vector Machines classification model.
 - `model_naive.pkl`: Naive Bayes classification model.
-- `app.py`: **PRIYA TO UPDATE**
+- `BiLSTM-RNN.py`: Python and Streamlit code for frontend output by using BiLSTM model.
+- `SVM.py` : Python and Streamlit code for frontend output by using SVM model.
 - `P4.twbx`: Tableau workbook download
 - `/Output/`: Contains output files such as processed datasets or results from the analysis.
 - `README.md`: Documentation explaining the project, its structure, and how to run it.
