@@ -145,7 +145,7 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
     ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/323e2d58-1f92-433c-b1c9-0195a481e230) </br></br>
     ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/c26a8ad7-b4b2-4d2f-a6df-27393dd3581d) </br></br>
 
-   **It was observed on training the model that the accuracy didn't improve beyond 0.52 in 10 epochs, increasing neurons or adding additioanl layers, varying other activation functions, so on a clean code run, only 2 epochs were run with one combination of th eabove factors to save on Google Colab GPU usage**</br></br>
+   **It was observed on training the model that the accuracy didn't improve beyond 0.52 in 10 epochs, increasing neurons or adding additioanl layers, varying other activation functions, so on a clean code run, only 2 epochs were run with one combination of the above factors to save on Google Colab GPU usage**</br></br>
    
    **Result**</br></br>
     ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/b7858eb5-b794-4ebb-9e68-fa91dde897c8) </br></br>
@@ -157,7 +157,9 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
   **Result**</br></br>
     ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/b97ef204-a4c4-4c00-bafa-d42883077a50) </br></br>
 
-  **It was observed on training the model with an embedding layer, 1 Bidirectional LSTM layer, a relu and an output sigmoid layer, that the accuracy reached 1 in 3 epochs itself when run for 5 epochs so on a clean code run, only 2 epochs were run with one combination of factors like number of neurons, activation functions and layers to save on Google Colab GPU usage**</br></br>
+  **It was observed on training the model with an embedding layer, 1 Bidirectional LSTM layer, a relu and an output sigmoid layer, that the accuracy reached 1 in 3 epochs itself when run for 5 epochs so on a clean code run, only 3 epochs were run**</br></br>
+  
+**SVM,  Naïve Bayes and BiLSTM had high accuracy (>90%), recall and precision. SVM and BiLSTM were unit tested. BiLSTM had the best accuracy of 99.8%**
 
 #### Limitations
 
