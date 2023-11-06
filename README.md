@@ -52,11 +52,12 @@ It provided a better understanding of the data's distribution and uncovered patt
 The EDA was conducted in two distinct Jupyter notebooks: `DataExploration.ipynb` and `SentimentAnalysis.ipynb`.  </br>
 `DataExploration.ipynb` focused on initial data exploration, including data cleaning and standardization, while `SentimentAnalysis.ipynb` delved deeper into the emotional tone of the articles through sentiment analysis, utilizing natural language processing techniques to assess the polarity and subjectivity of the text.
 
-------------------------------------------- TO BE UPDATED BY TARYN ------------------------------------------- 
 
 ##### Data Exploration (`DataExploration.ipynb`)
+Utilising Google Colab to separately inspect the fake and true CSV files, the initial phase of the process involved data cleaning, which included segregating the publisher information into a distinct column to enhance the clarity of the text column. After a thorough review of the publisher data, it became apparent that the predominant source of information was Reuters outlets in the United States, with some contributions from global sources. Further data cleansing steps were undertaken, including the removal of duplicate articles, headlines, and date information, as the latter was considered irrelevant for the analysis.
 
-------------------------------------------- TO BE UPDATED BY TARYN ------------------------------------------- 
+Following these data preparation activities, the cleaned datasets were merged and produced multiple visualisations to generate insights. These visualisations encompassed comparisons of real vs. fake news article counts, a pie chart illustrating the percentage distribution by subject, an analysis of the number of words in the text, a word cloud visualization, and an examination of unigrams, bigrams, and trigrams to identify key word combinations. This comprehensive analysis enabled the identification of valuable insights and trends within the dataset, providing a deeper understanding of the characteristics and patterns associated with fake and true news articles.
+
 
 ##### Sentiment Analysis (`SentimentAnalysis.ipynb`) 
 - **Objective**: To assess the emotional tone and subjectivity of news articles, differentiating between true and fake news.
@@ -108,11 +109,12 @@ The EDA was conducted in two distinct Jupyter notebooks: `DataExploration.ipynb`
 - Use of Tableau for data visualization components and comprehensive analysis
 
 ## Setup and Installation
-- 
--
--
--
-- For data visualisation involved further cleansed data into smaller filetypes for use in Tableau, such that irrelevant data was removed and columns were relabelled for ease of comprehension
+- PRIYA PRIYA  
+- PRIYA
+- PRIYA
+- PRIYA
+- PRIYA
+- Data visualisation and analysis involved further cleansed data into smaller filetypes for use in Tableau, such that irrelevant data was removed and columns were relabelled for ease of comprehension
 - Designed each worksheet with a visualisation taken from the clean data sets and compiled into relevant dashboards
 - Created dashboards for each analysis and model created and differentiated data from 
 - Wrote a comprehensive and detailed data analysis per each visualisation and an intepretation of the results
@@ -126,12 +128,11 @@ The EDA was conducted in two distinct Jupyter notebooks: `DataExploration.ipynb`
 Screenshot of html page (**THIS IS JUST A PLACEHOLDER**)
 <img width="1300" alt="Website image" src="https://github.com/jyojay/MONU_Project_4/blob/e2137b115879e6c0b7127c694249c770a8ce8081/ToRemove%20(Working%20files)/Taryn%20Fordyce/real_news_sentiment.png"><br><br>
 
-The word analysis page created in Tableau using a variety of visual techniques including word cloud analysis, sentiment analysis and a comprehensive breakdown of the visulisations<br>
-
-The link can be be found [here](https://public.tableau.com/views/P4_16990786163050/Homepage?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)
+**The word analysis page created in Tableau using a variety of visual techniques including word cloud analysis, sentiment analysis and a comprehensive breakdown of the visulisations can be be found** [here](https://public.tableau.com/views/P4_16990786163050/Homepage?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)<br> <br>
 
 
 
 <img width="1440" alt="Tableau data analysis image" src="https://github.com/jyojay/MONU_Project_4/blob/ac061a849b0c0064e2dec6e8a02635e56a8bef3a/ToRemove%20(Working%20files)/Taryn%20Fordyce/tableau%20page.png">
 
+***
 
