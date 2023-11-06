@@ -36,6 +36,7 @@ This repository is organized into several directories and key files as follows:
 - `model_svm.pkl`: Standard Vector Machines classification model.
 - `model_naive.pkl`: Naive Bayes classification model.
 - `app.py`: **PRIYA TO UPDATE**
+- `P4.twbx`: Tableau workbook download
 - `/Output/`: Contains output files such as processed datasets or results from the analysis.
 - `README.md`: Documentation explaining the project, its structure, and how to run it.
 
@@ -106,9 +107,17 @@ Since we had a two-group classification problem at hand vis-a-vis Fake and True,
 2)	`Bidirectional LSTM (BiLSTM)` – To improve the model we selected this extension of the traditional LSTM since It involves duplicating the first recurrent layer in the network so that there are two layers side-by-side in training. This was done to provide additional training to the model to improve predictions.
 
 #### Data Preperation for model training
-#### Neural Network Models
+Data which was tokenized, lemmatized and from which stop words and special characters were removed in the EDA step was taken as an input for both ML and RNN-LSTM modules.</br>
 
-#### Data Preperation for model training
+**ML Models** </br>
+Input data was vectorized using SKLearn TfidfVectorizer
+
+**Neural Network Models**</br>
+The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer and then padded using pad_sequences.</br>
+
+**`Jupyter notebook` on desktopn was used for ML models whereas `Google Colab` was used for training Neural Network Models due to high processing requirements.**</br>
+
+
 
 #### Limitations
 
