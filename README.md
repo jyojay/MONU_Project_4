@@ -14,8 +14,6 @@ The key points about the dataset:
 - **Data Fields**: Each record includes the title, text, subject, and date of the news article.
 - **Volume**: The dataset provides a substantial number of articles, offering a robust foundation for training our machine learning model.
 
-------------------------------------------- TO BE UPDATED BY EVERYONE ------------------------------------------- 
-
 ## Toolkit
 - Python (pandas, pathlib, matplotlib, numpy, seaborn, Scikit-learn, nltk, spacy, tensorflow, keras) 
 - Streamlit for web application frontend
@@ -45,7 +43,6 @@ This repository is organized into several directories and key files as follows:
 - https://drive.google.com/file/d/1jKFM2dT83sMtHRZO8X3xWp8I6pVy0SPV/view?usp=sharing : BiLSTM model
 - https://public.tableau.com/views/P4_16990786163050/Homepage?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link : Link to Tableau page
 
-------------------------------------------- TO BE UPDATED BY EVERYONE ------------------------------------------- 
 
 ## Structure
 
