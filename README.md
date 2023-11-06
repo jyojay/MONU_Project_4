@@ -92,7 +92,7 @@ Following these data preparation activities, the cleaned datasets were merged an
   
    ![5](https://github.com/jyojay/MONU_Project_4/assets/134185577/b4324c5f-c4d8-4f7d-ae1e-b64827fe6d35)
 
-### Machine Learning and Recurrent Neural Network Modeling  
+### Machine Learning and Recurrent Neural Network Modelling  
 
 #### Machine Learning Models
 Since we had a two-group classification problem at hand vis-a-vis Fake and True, we started out exploring various models and zeroed out on two Machine Learning `(ML) Models` and two `Recurrent Neural Network (RNN)` models for our purpose. Ref: https://developers.google.com/machine-learning/guides/text-classification/step-2-5 </br>
