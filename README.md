@@ -156,12 +156,23 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
 
   **Result**</br></br>
     ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/b97ef204-a4c4-4c00-bafa-d42883077a50) </br></br>
+    ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/8ff31bb5-552e-4c61-9f94-91381b0a6351) </br></br>
+
 
   **It was observed on training the model with an embedding layer, 1 Bidirectional LSTM layer, a relu and an output sigmoid layer, that the accuracy reached 1 in 3 epochs itself when run for 5 epochs so on a clean code run, only 3 epochs were run**</br></br>
   
 **SVM,  Naïve Bayes and BiLSTM had high accuracy (>90%), recall and precision. SVM and BiLSTM were unit tested. BiLSTM had the best accuracy of 99.8%**
 
 #### Limitations
+- Data was available only from primarily a single source (Reuters)
+- Data was only available for the period of 31 March 2015 - 19 February 2018.
+- High Resource requirement preventing training with:
+  -  more data from varying sources
+  -  more trials on various combinations of layers, neurons and activation functions
+  -  trials without removal of stop words
+  -  more iterations or epochs.   
+- There is no scope of re-training the models
+- Due to the above reasons, the models will only  be successful for predicting specific news texts
 
 
 ------------------------------------------- TO BE UPDATED BY PRYJA & TARYN ------------------------------------------- 
