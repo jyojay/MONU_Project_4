@@ -44,11 +44,11 @@ It provided a better understanding of the data's distribution and uncovered patt
 The EDA was conducted in two distinct Jupyter notebooks: `DataExploration.ipynb` and `SentimentAnalysis.ipynb`.  </br>
 `DataExploration.ipynb` focused on initial data exploration, including data cleaning and standardization, while `SentimentAnalysis.ipynb` delved deeper into the emotional tone of the articles through sentiment analysis, utilizing natural language processing techniques to assess the polarity and subjectivity of the text.
 
-------------------------------------------- TO BE UPDATED BY JYOTSNA ------------------------------------------- 
+------------------------------------------- TO BE UPDATED BY TARYN ------------------------------------------- 
 
 ##### Data Exploration (`DataExploration.ipynb`)
 
-------------------------------------------- TO BE UPDATED BY JYOTSNA ------------------------------------------- 
+------------------------------------------- TO BE UPDATED BY TARYN ------------------------------------------- 
 
 ##### Sentiment Analysis (`SentimentAnalysis.ipynb`) 
 - **Objective**: To assess the emotional tone and subjectivity of news articles, differentiating between true and fake news.
@@ -88,7 +88,7 @@ The EDA was conducted in two distinct Jupyter notebooks: `DataExploration.ipynb`
 
     
 
-------------------------------------------- TO BE UPDATED BY ASHA & JYOTSNA ------------------------------------------- 
+------------------------------------------- TO BE UPDATED BY JYOTSNA ------------------------------------------- 
 
 #### Data Preprocessing for Modeling
 Detailed steps on how the data was preprocessed for the machine learning models, including cleaning, feature extraction, and normalization.
@@ -98,7 +98,7 @@ Explanation of the machine learning models developed to classify news articles, 
 
 #### Limitations
 
-------------------------------------------- TO BE UPDATED BY ASHA & JYOTSNA ------------------------------------------- 
+------------------------------------------- TO BE UPDATED BY JYOTSNA ------------------------------------------- 
 
 
 ------------------------------------------- TO BE UPDATED BY PRYJA & TARYN ------------------------------------------- 
@@ -136,25 +136,3 @@ The link can be be found [here](https://public.tableau.com/views/P4_169907861630
 <img width="1440" alt="Tableau data analysis image" src="https://github.com/jyojay/MONU_Project_4/blob/ac061a849b0c0064e2dec6e8a02635e56a8bef3a/ToRemove%20(Working%20files)/Taryn%20Fordyce/tableau%20page.png">
 
 
-
-
-
-
-
-
-
-
-------------------------------------------------- TO DELETE - OLD VERSION  ---------------------------------------------------------------------
-
-
-
-### TO COMPLETE BY 5/11
-Jyotsna - Update your tasks on the model - LSDM - RNN Model giving high accuracy, check against random inputs. Help Priya with Flask  <br>
-Asha -  Update ReadME file, Correct EDA and Integrated Jyotsnas file, review model - need to complete further testing, 3 x trials <br>
-Priya - Update ReadME file Today create Flask try to get input - random inputs in Python (backend) <br>
-Taryn - Update ReadME file Interactive selections, control if statements Create wordcloud <br> 
-
-### TO COMPLETE BY 6/11
-Flask and front-end website ready, Tableau link, powerpoint presentation content ready to put into template 
-
-------------------------------------------------- TO DELETE - OLD VERSION  ----------------------------------------------------------------------
