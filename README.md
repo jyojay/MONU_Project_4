@@ -58,7 +58,7 @@ The EDA was conducted in two distinct Jupyter notebooks: `DataExploration.ipynb`
   - Calculated word frequency distribution to identify the most common words in true and fake news.
   - Generated word clouds for a visual depiction of frequent words in each news type.
     
-   ![1](https://github.com/jyojay/MONU_Project_4/assets/134185577/4fca347b-ca77-4758-bf92-2146835aa456)
+    ![1](https://github.com/jyojay/MONU_Project_4/assets/134185577/4fca347b-ca77-4758-bf92-2146835aa456)
     
   - Analyzed polarity and subjectivity using TextBlob to evaluate the emotional content and the amount of personal opinion in articles.
   - Categorized articles based on polarity scores and compared sentiment distribution between true and fake news.
@@ -82,7 +82,7 @@ The EDA was conducted in two distinct Jupyter notebooks: `DataExploration.ipynb`
   - A higher proportion of negatively toned articles were found in fake news compared to true news.
   - Politically charged words were often associated with negative sentiments in fake news ("trump", "clinton", "obama", "police", "media").
   
-  ![5](https://github.com/jyojay/MONU_Project_4/assets/134185577/b4324c5f-c4d8-4f7d-ae1e-b64827fe6d35)
+   ![5](https://github.com/jyojay/MONU_Project_4/assets/134185577/b4324c5f-c4d8-4f7d-ae1e-b64827fe6d35)
 
    
 
