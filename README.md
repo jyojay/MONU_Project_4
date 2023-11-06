@@ -101,13 +101,12 @@ Since we had a two-group classification problem at hand vis-a-vis Fake and True,
 **ML Models** </br>
 1)	`Naïve Bayes` – This model was tried because despite its simplicity, it can handle large feature spaces, which makes them suitable for text classification where the feature set can be the size of the vocabulary. Ref: https://web.stanford.edu/class/cs124/lec/naivebayes2021.pdf
 2)	`Standard Vector Machines (SVM)` – This model was tried because of their capability to handle High dimensionality and effective decision boundaries in the form of hyperplanes.  Ref: https://www.cs.cornell.edu/people/tj/svmtcatbook/
-
 **RNN-LSTM Models**</br>
 1)	`Long Short-term Memory (LSTM)` – We were looking for a model that could process Natural Language and selected this model due to its ability to process sequential data and remember patterns over time. 
 2)	`Bidirectional LSTM (BiLSTM)` – To improve the model we selected this extension of the traditional LSTM since It involves duplicating the first recurrent layer in the network so that there are two layers side-by-side in training. This was done to provide additional training to the model to improve predictions.
 
 #### Data Preperation for model training
-Data which was tokenized, lemmatized and from which stop words and special characters were removed in the EDA step was taken as an input for both ML and RNN-LSTM modules.</br>
+Data which was tokenized, lemmatized and from which stop words and special characters were removed in the EDA step was taken as an input for both ML and RNN-LSTM modules.</br></br>
 
 1) **ML Models** </br>
 Input data was vectorized using SKLearn TfidfVectorizer</br>
@@ -121,39 +120,47 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
 1) **ML Models** 
   -	The data was split into Train and Test data at 3:1 ratio.
   -	Target used: class column values which were 0 or 1 depending on Fake or True news  
-  -	Features used: text column values with the news text
-  - **Naive Bayes Model** </br></br>
+  -	Features used: text column values with the news text</br></br>
+  
+**Naive Bayes Model** </br></br>
   ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/1f9d2d43-2b20-49a3-b196-6a69c027a5f4) </br></br>
   
   **Result**</br></br>
   ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/23c92cd3-6f76-4517-8543-af6eb5fc2bb9) </br></br>
 
-  - **SVM Model** </br></br>
-![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/54fb94ba-5621-456c-b349-eee7f47feff4) </br></br>
+**SVM Model** </br></br>
+  ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/54fb94ba-5621-456c-b349-eee7f47feff4) </br></br>
   **Result**</br></br>
-![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/0e872ac1-aa71-4998-9a93-c88c838cf778) </br></br>
+  ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/0e872ac1-aa71-4998-9a93-c88c838cf778) </br></br>
 
 **SVM Model was observed to have a better accuracy, recall and precision**
 
 2) **RNN-LSTM Models**
   -	The data was split into Train and Test data at 3:1 ratio.
   -	Target used: class column values which were 0 or 1 depending on Fake or True news  
-  -	Features used: text column values with the news text
-  - **Naive Bayes Model** </br></br>
-    ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/1f9d2d43-2b20-49a3-b196-6a69c027a5f4) </br></br>
-  
-    **Result**</br></br>
-    ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/23c92cd3-6f76-4517-8543-af6eb5fc2bb9) </br></br>
+  -	Features used: text column values with the news text</br></br>
 
-  - **SVM Model** </br></br>
-    ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/54fb94ba-5621-456c-b349-eee7f47feff4) </br></br>
-    
-     **Result**</br></br>
-      ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/0e872ac1-aa71-4998-9a93-c88c838cf778) </br></br>
+**LSTM Model** </br></br>
+    ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/d078d439-a771-4cb5-838b-49099a22065a)</br></br>
+    ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/323e2d58-1f92-433c-b1c9-0195a481e230) </br></br>
+    ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/c26a8ad7-b4b2-4d2f-a6df-27393dd3581d) </br></br>
 
-**SVM Model was observed to have a better accuracy, recall and precision**
+   **It was observed on training the model that the accuracy didn't improve beyond 0.52 in 10 epochs, increasing neurons or adding additioanl layers, varying other activation functions, so on a clean code run, only 2 epochs were run with one combination of th eabove factors to save on Google Colab GPU usage**</br></br>
+   
+   **Result**</br></br>
+    ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/b7858eb5-b794-4ebb-9e68-fa91dde897c8) </br></br>
+
+ **Bidirectional LSTM** </br></br>
+    ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/c7bfa551-acb6-492c-aca8-adaede865371) </br></br>
+    ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/1cc2eeed-7ef5-4088-b422-1e163870e458) </br></br>
+
+  **Result**</br></br>
+    ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/b97ef204-a4c4-4c00-bafa-d42883077a50) </br></br>
+
+  **It was observed on training the model with an embedding layer, 1 Bidirectional LSTM layer, a relu and an output sigmoid layer, that the accuracy reached 1 in 3 epochs itself when run for 5 epochs so on a clean code run, only 2 epochs were run with one combination of factors like number of neurons, activation functions and layers to save on Google Colab GPU usage**</br></br>
 
 #### Limitations
+
 
 ------------------------------------------- TO BE UPDATED BY PRYJA & TARYN ------------------------------------------- 
 
