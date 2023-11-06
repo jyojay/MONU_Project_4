@@ -99,6 +99,7 @@ Since we had a two-group classification problem at hand vis-a-vis Fake and True,
 **ML Models** </br>
 1)	`Naïve Bayes` – This model was tried because despite its simplicity, it can handle large feature spaces, which makes them suitable for text classification where the feature set can be the size of the vocabulary. Ref: https://web.stanford.edu/class/cs124/lec/naivebayes2021.pdf
 2)	`Standard Vector Machines (SVM)` – This model was tried because of their capability to handle High dimensionality and effective decision boundaries in the form of hyperplanes.  Ref: https://www.cs.cornell.edu/people/tj/svmtcatbook/ </br>
+
 **RNN-LSTM Models**</br>
 1)	`Long Short-term Memory (LSTM)` – We were looking for a model that could process Natural Language and selected this model due to its ability to process sequential data and remember patterns over time. 
 2)	`Bidirectional LSTM (BiLSTM)` – To improve the model we selected this extension of the traditional LSTM since It involves duplicating the first recurrent layer in the network so that there are two layers side-by-side in training. This was done to provide additional training to the model to improve predictions.
