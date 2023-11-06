@@ -74,32 +74,22 @@ The EDA was conducted in two distinct Jupyter notebooks: `DataExploration.ipynb`
     ![4](https://github.com/jyojay/MONU_Project_4/assets/134185577/7087c3f1-31d9-43fa-ac65-f69edd0b5fe1)
     
 - **Findings**:
-  - Both true and fake news articles generally have a slightly positive tone, with fake news showing a higher average polarity.
-
-    
-
+  - Both true and fake news articles generally have a slightly positive tone, with fake news showing a higher average polarity  
   - Fake news articles exhibit a higher level of subjectivity, indicating more opinion-based content.
   - A higher proportion of negatively toned articles were found in fake news compared to true news.
   - Politically charged words were often associated with negative sentiments in fake news ("trump", "clinton", "obama", "police", "media").
   
    ![5](https://github.com/jyojay/MONU_Project_4/assets/134185577/b4324c5f-c4d8-4f7d-ae1e-b64827fe6d35)
 
-   
-
-    
-
-------------------------------------------- TO BE UPDATED BY JYOTSNA ------------------------------------------- 
-
-#### Data Preprocessing for Modeling
-Detailed steps on how the data was preprocessed for the machine learning models, including cleaning, feature extraction, and normalization.
+### Data Modelling   
 
 #### Machine Learning Models
-Explanation of the machine learning models developed to classify news articles, including the model types, training process, and evaluation metrics used.
+##### Data Preperation for model training
+- 
+
+#### Newural Network Models
 
 #### Limitations
-
-------------------------------------------- TO BE UPDATED BY JYOTSNA ------------------------------------------- 
-
 
 ------------------------------------------- TO BE UPDATED BY PRYJA & TARYN ------------------------------------------- 
 
