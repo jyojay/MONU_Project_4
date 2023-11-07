@@ -15,7 +15,7 @@ The key points about the dataset:
 - **Volume**: The dataset provides a substantial number of articles, offering a robust foundation for training our machine learning model.
 
 ## Toolkit
-- Python (pandas, pathlib, matplotlib, numpy, seaborn, Scikit-learn, nltk, spacy, tensorflow, keras) 
+- Python (pandas, pathlib, matplotlib, numpy, seaborn, scikit-learn, nltk, spacy, tensorflow, keras) 
 - Streamlit for web application frontend
 - Tableau for advanced data visualizations and data analysis
   
