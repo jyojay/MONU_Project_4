@@ -175,8 +175,8 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
 
 ### Frontend
 
+- Integration of Streamlit for dynamic data handling
 - Interactive dashboard for user engagement and visualization
-- Integration of STREAMLIT for dynamic data handling
 - Use of Tableau for data visualization components and comprehensive analysis
 
 #### Streamlit Setup and Installation
