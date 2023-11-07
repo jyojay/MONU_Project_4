@@ -163,15 +163,11 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
 
 #### Limitations
 
-- Data was available only from primarily a single source (Reuters)
-- Data was only available for the period of 31 March 2015 - 19 February 2018.
-- High Resource requirement preventing training with:
-  -  more data from varying sources
-  -  more trials on various combinations of layers, neurons and activation functions
-  -  trials without removal of stop words
-  -  more iterations or epochs.   
-- There is no scope of re-training the models
-- Due to the above reasons, the models will only  be successful for predicting specific news texts
+- Data Diversity: The dataset originates predominantly from Reuters, limiting exposure to diverse journalistic styles. 
+- Temporal Coverage: Data spans from March 2015 to February 2018, potentially missing contemporary linguistic nuances in news reporting. 
+- Computational Constraints: Limited computational resources restricted extensive experimentation with hyperparameters and complex architectures.
+- Continuous Learning: The current static models lack re-training capabilities, essential for adapting to new data. Future versions should integrate continuous learning to adjust to emerging data patterns and maintain performance over time.
+- Prediction Specificity: Models are tailored to the specific dataset and may not perform optimally on varied news texts. Adaptation through fine-tuning or transfer learning techniques is suggested for applications beyond the initial dataset.
 
 ### Frontend
 
