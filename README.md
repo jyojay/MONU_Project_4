@@ -179,7 +179,7 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
 - Integration of STREAMLIT for dynamic data handling
 - Use of Tableau for data visualization components and comprehensive analysis
 
-## Streamlit Setup and Installation
+#### Streamlit Setup and Installation
 
 **Introduction to Streamlit** 
 
@@ -214,7 +214,7 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
 - Compiled all dashboards into a story to be linked to the website incorporating the model
 - Designed color theme, imagery and stylization.
 
-## Usage
+### Usage
 
 <img width="1300" alt="Website image" src="https://github.com/jyojay/MONU_Project_4/blob/e2137b115879e6c0b7127c694249c770a8ce8081/ToRemove%20(Working%20files)/Taryn%20Fordyce/real_news_sentiment.png"><br><br>
 
