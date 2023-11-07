@@ -195,15 +195,15 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
 **Execution:**
 
 << code terminal :\> streamlit run your_script.py  >>
+- Runs an interactive application on your local computer at http://localhost:8501.
+
+ **Output**
+
+![image](https://github.com/jyojay/MONU_Project_4/assets/132317668/16b0a984-157e-404f-b249-7c48355a8b13)
 
 **Development Workflow :**
 
 ![image](https://github.com/jyojay/MONU_Project_4/assets/132317668/ec76333b-826f-4c17-bf98-dac35844a5ab)
-
-**Output**
-
-![image](https://github.com/jyojay/MONU_Project_4/assets/132317668/16b0a984-157e-404f-b249-7c48355a8b13)
-
 
 **Tableau**
 
