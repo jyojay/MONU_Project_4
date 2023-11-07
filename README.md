@@ -30,11 +30,11 @@ This repository is organized into several directories and key files as follows:
 - `DataExploration.ipynb`: Jupyter notebook for initial data exploration and analysis.
 - `SentimentAnalysis.ipynb`: Jupyter notebook for conducting sentiment analysis on the dataset.
 - `DataModelling_SVM_NB.ipynb`: Notebook containing code for machine learning modelling using Naive Bayes and Support Vector Machines classifiers. This also includes unit testing for the preferred successful model.
-- `DataModelling_LSTM.ipynb`: Notebook containing code for Neural Network modelling using RNN-LSTM/BiLSTM. This also includes unit testing for the successful model.
 - `model_svm.pkl`: Support Vector Machines classification model.
 - `model_naive.pkl`: Naive Bayes classification model.
-- `BiLSTM_streamlit.py`: Python and Streamlit code for frontend output by using BiLSTM model.
+- `DataModelling_LSTM.ipynb`: Notebook containing code for Neural Network modelling using RNN-LSTM/BiLSTM. This also includes unit testing for the successful model.
 - `SVM_streamlit.py` : Python and Streamlit code for frontend output by using SVM model.
+- `BiLSTM_streamlit.py`: Python and Streamlit code for frontend output by using BiLSTM model.
 - `P4.twbx`: Tableau workbook download
 - `/Output/`: Contains output files such as processed datasets or results from the analysis.
 - `README.md`: Documentation explaining the project, its structure, and how to run it.
