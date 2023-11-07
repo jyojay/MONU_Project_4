@@ -203,7 +203,8 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
 
 **Development Workflow :**
 
-![image](https://github.com/jyojay/MONU_Project_4/assets/132317668/ec76333b-826f-4c17-bf98-dac35844a5ab)
+![image](https://github.com/jyojay/MONU_Project_4/assets/132317668/497fa62f-0368-4f6f-bbe9-d072b93912c2)
+
 
 **Tableau**
 
