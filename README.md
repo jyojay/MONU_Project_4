@@ -96,8 +96,8 @@ Following these data preparation activities, the cleaned datasets were merged an
 #### Machine Learning Models
 Since we had a two-group classification problem at hand vis-a-vis Fake and True, we started out exploring various models and zeroed out on two Machine Learning `(ML) Models` and two `Recurrent Neural Network (RNN)` models for our purpose. Ref: https://developers.google.com/machine-learning/guides/text-classification/step-2-5 </br>
 **ML Models** </br>
-1)	`Naïve Bayes` – This model was tried because despite its simplicity, it can handle large feature spaces, which makes them suitable for text classification where the feature set can be the size of the vocabulary. Ref: https://web.stanford.edu/class/cs124/lec/naivebayes2021.pdf
-2)	`Support Vector Machines (SVM)` – This model was tried because of their capability to handle High dimensionality and effective decision boundaries in the form of hyperplanes.  Ref: https://www.cs.cornell.edu/people/tj/svmtcatbook/ </br>
+1)	`Naïve Bayes` – This model was chosen because, despite its simplicity, it can handle large feature spaces, which makes them suitable for text classification where the feature set can be the size of the vocabulary. Ref: https://web.stanford.edu/class/cs124/lec/naivebayes2021.pdf
+2)	`Support Vector Machines (SVM)` – This model was selected due to their capability to manage high dimensionality and establish effective decision boundaries in the form of hyperplanes.  Ref: https://www.cs.cornell.edu/people/tj/svmtcatbook/ </br>
 
 **RNN-LSTM Models**</br>
 1)	`Long Short-term Memory (LSTM)` – We were looking for a model that could process Natural Language and selected this model due to its ability to process sequential data and remember patterns over time. 
