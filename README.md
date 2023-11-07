@@ -194,7 +194,7 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
 
 **Execution:**
 
-<< code terminal :\> streamlit run your_script.py  >>
+<<   c:\> streamlit run your_script.py   >>
 - Runs an interactive application on your local computer at http://localhost:8501.
 
  **Output**
