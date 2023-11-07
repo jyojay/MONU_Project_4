@@ -33,8 +33,8 @@ This repository is organized into several directories and key files as follows:
 - `DataModelling_LSTM.ipynb`: Notebook containing code for Neural Network modelling using RNN-LSTM/BiLSTM. This also includes unit testing for the successful model.
 - `model_svm.pkl`: Support Vector Machines classification model.
 - `model_naive.pkl`: Naive Bayes classification model.
-- `BiLSTM-RNN.py`: Python and Streamlit code for frontend output by using BiLSTM model.
-- `SVM.py` : Python and Streamlit code for frontend output by using SVM model.
+- `BiLSTM_streamlit.py`: Python and Streamlit code for frontend output by using BiLSTM model.
+- `SVM_streamlit.py` : Python and Streamlit code for frontend output by using SVM model.
 - `P4.twbx`: Tableau workbook download
 - `/Output/`: Contains output files such as processed datasets or results from the analysis.
 - `README.md`: Documentation explaining the project, its structure, and how to run it.
@@ -42,7 +42,6 @@ This repository is organized into several directories and key files as follows:
 ### Additional deliverables:
 - https://drive.google.com/file/d/1jKFM2dT83sMtHRZO8X3xWp8I6pVy0SPV/view?usp=sharing : BiLSTM model
 - https://public.tableau.com/views/P4_16990786163050/Homepage?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link : Link to Tableau page
-
 
 ## Structure
 
@@ -163,6 +162,7 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
 **SVM,  Naïve Bayes and BiLSTM had high accuracy (>90%), recall and precision. SVM and BiLSTM were unit tested. BiLSTM had the best accuracy of 99.8%**
 
 #### Limitations
+
 - Data was available only from primarily a single source (Reuters)
 - Data was only available for the period of 31 March 2015 - 19 February 2018.
 - High Resource requirement preventing training with:
@@ -173,20 +173,40 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
 - There is no scope of re-training the models
 - Due to the above reasons, the models will only  be successful for predicting specific news texts
 
-
-------------------------------------------- TO BE UPDATED BY PRYJA & TARYN ------------------------------------------- 
-
 ### Frontend
+
 - Interactive dashboard for user engagement and visualization
-- Integration of Flask API for dynamic data handling
+- Integration of STREAMLIT for dynamic data handling
 - Use of Tableau for data visualization components and comprehensive analysis
 
-## Setup and Installation
-- PRIYA PRIYA  
-- PRIYA
-- PRIYA
-- PRIYA
-- PRIYA
+## Streamlit Setup and Installation
+
+**Introduction to Streamlit** 
+
+- Streamlit is an open-source app framework in Python language.
+- It helps us create web apps for data science and machine learning.
+- Streamlit is an all-in-one tool that encompases web serving as well as data analysis
+- It is compatible with major Python libraries such as scikit-learn, Keras, PyTorch, SymPy(latex), NumPy, pandas, Matplotlib etc.
+
+**Installation:**
+
+<< pip install streamlit >> in windows commandprompt / gitbash / anaconda
+
+**Execution:**
+
+<< code terminal :\> streamlit run your_script.py  >>
+
+**Development Workflow :**
+
+![image](https://github.com/jyojay/MONU_Project_4/assets/132317668/ec76333b-826f-4c17-bf98-dac35844a5ab)
+
+**Output**
+
+![image](https://github.com/jyojay/MONU_Project_4/assets/132317668/16b0a984-157e-404f-b249-7c48355a8b13)
+
+
+**Tableau**
+
 - Data visualisation and analysis involved further cleansed data into smaller filetypes for use in Tableau, such that irrelevant data was removed and columns were relabelled for ease of comprehension
 - Designed each worksheet with a visualisation taken from the clean data sets and compiled into relevant dashboards
 - Created dashboards for each analysis and model created and differentiated data from 
@@ -194,16 +214,11 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
 - Compiled all dashboards into a story to be linked to the website incorporating the model
 - Designed color theme, imagery and stylization.
 
-
 ## Usage
 
-------------------------------------------- TO BE UPDATED BY PRYJA & TARYN ------------------------------------------- 
-Screenshot of html page (**THIS IS JUST A PLACEHOLDER**)
 <img width="1300" alt="Website image" src="https://github.com/jyojay/MONU_Project_4/blob/e2137b115879e6c0b7127c694249c770a8ce8081/ToRemove%20(Working%20files)/Taryn%20Fordyce/real_news_sentiment.png"><br><br>
 
 **The word analysis page created in Tableau using a variety of visual techniques including word cloud analysis, sentiment analysis and a comprehensive breakdown of the visulisations can be be found** [here](https://public.tableau.com/views/P4_16990786163050/Homepage?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)<br> <br>
-
-
 
 <img width="1440" alt="Tableau data analysis image" src="https://github.com/jyojay/MONU_Project_4/blob/ac061a849b0c0064e2dec6e8a02635e56a8bef3a/ToRemove%20(Working%20files)/Taryn%20Fordyce/tableau%20page.png">
 
