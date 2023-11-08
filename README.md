@@ -57,7 +57,28 @@ The EDA was conducted in two distinct Jupyter notebooks: `DataExploration.ipynb`
 ##### Data Exploration (`DataExploration.ipynb`)
 Utilising Google Colab to separately inspect the fake and true CSV files, the initial phase of the process involved data cleaning, which included segregating the publisher information into a distinct column to enhance the clarity of the text column. After a thorough review of the publisher data, it became apparent that the predominant source of information was Reuters outlets in the United States, with some contributions from global sources. Further data cleansing steps were undertaken, including the removal of duplicate articles, headlines, and date information, as the latter was considered irrelevant for the analysis.
 
-Following these data preparation activities, the cleaned datasets were merged and produced multiple visualisations to generate insights. These visualisations encompassed comparisons of real vs. fake news article counts, a pie chart illustrating the percentage distribution by subject, an analysis of the number of words in the text, a word cloud visualization, and an examination of unigrams, bigrams, and trigrams to identify key word combinations. This comprehensive analysis enabled the identification of valuable insights and trends within the dataset, providing a deeper understanding of the characteristics and patterns associated with fake and true news articles.
+![1](https://github.com/jyojay/MONU_Project_4/assets/134185577/1a8099a9-da03-450e-89ff-5eb21b497433)
+
+Following these data preparation activities, the cleaned datasets were merged and produced multiple visualisations to generate insights. These visualisations encompassed:
+- comparisons of real vs. fake news article counts
+
+  ![2](https://github.com/jyojay/MONU_Project_4/assets/134185577/ae751438-9c76-4bea-9736-a97746ae1929)
+
+- a pie chart illustrating the percentage distribution by subject
+  
+  ![3](https://github.com/jyojay/MONU_Project_4/assets/134185577/c41bc249-91ac-4e67-a824-28ef9b3e199e)
+
+- an analysis of the number of words in the text, a word cloud visualization
+
+  ![4](https://github.com/jyojay/MONU_Project_4/assets/134185577/6a40c049-eaa6-4b0f-9799-c62f107f35c8)
+
+  
+- an examination of unigrams, bigrams, and trigrams to identify key word combinations.
+
+  ![6](https://github.com/jyojay/MONU_Project_4/assets/134185577/8f0512c0-10f5-4bc4-ae47-4528dded5dfb)
+
+
+This comprehensive analysis enabled the identification of valuable insights and trends within the dataset, providing a deeper understanding of the characteristics and patterns associated with fake and true news articles.
 
 
 ##### Sentiment Analysis (`SentimentAnalysis.ipynb`) 
