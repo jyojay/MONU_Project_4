@@ -244,3 +244,10 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
 
 ***
 
+## Disclaimer
+
+This work has been submitted by students. </br>
+This is not to be considered an official document from the institution or a representation of the institution's views. </br>
+The content herein is the result of academic coursework and has been created for educational purposes only. </br>
+While the work is indicative of the student's understanding of the subject matter, it should be taken in the context of a learning exercise. </br>
+
