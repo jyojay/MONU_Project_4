@@ -244,6 +244,7 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
 <img width="1440" alt="Tableau data analysis image" src="https://github.com/jyojay/MONU_Project_4/blob/ac061a849b0c0064e2dec6e8a02635e56a8bef3a/ToRemove%20(Working%20files)/Taryn%20Fordyce/tableau%20page.png">
 
 ***
+## Note on execution of code: DataExploration.ipynb code should be executed before running any other modules in order to generate a merged cleaned input file.
 
 ## Disclaimer
 
