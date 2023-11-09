@@ -230,7 +230,7 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
 
 - Data visualisation and analysis involved further cleansed data into smaller filetypes for use in Tableau, such that irrelevant data was removed and columns were relabelled for ease of comprehension
 - Designed each worksheet with a visualisation taken from the clean data sets and compiled into relevant dashboards
-- Created dashboards for each analysis and model created and differentiated data from 
+- Created dashboards for each analysis and model created and differentiated the data 
 - Wrote a comprehensive and detailed data analysis per each visualisation and an intepretation of the results
 - Compiled all dashboards into a story to be linked to the website incorporating the model
 - Designed color theme, imagery and stylization.
