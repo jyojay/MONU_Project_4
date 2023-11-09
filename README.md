@@ -36,6 +36,7 @@ This repository is organized into several directories and key files as follows:
 - `streamlit_BiLSTM.py`: Python and Streamlit code for frontend output by using BiLSTM model.
 - `P4.twbx`: Tableau workbook download
 - `/Output/`: Contains output files such as processed datasets or results from the analysis.
+- `Presentation.pdf`: Pdf version of the powerpoint presentation of the project.
 - `README.md`: Documentation explaining the project, its structure, and how to run it.
 
 ### Additional deliverables:
