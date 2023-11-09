@@ -33,7 +33,6 @@ This repository is organized into several directories and key files as follows:
 - `model_svm.pkl`: Support Vector Machines classification model.
 - `model_naive.pkl`: Naive Bayes classification model.
 - `DataModelling_LSTM.ipynb`: Notebook containing code for Neural Network modelling using RNN-LSTM/BiLSTM. This also includes unit testing for the successful model.
-- `SVM_streamlit.py` : Python and Streamlit code for frontend output by using SVM model.
 - `BiLSTM_streamlit.py`: Python and Streamlit code for frontend output by using BiLSTM model.
 - `P4.twbx`: Tableau workbook download
 - `/Output/`: Contains output files such as processed datasets or results from the analysis.
@@ -145,17 +144,18 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
   -	Features used: text column values with the news text</br></br>
   
 **Naive Bayes Model** </br></br>
-  ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/1f9d2d43-2b20-49a3-b196-6a69c027a5f4) </br></br>
+   ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/78c5cdfa-4a8f-4fdc-903b-af21fa18212d) </br></br>
   
   **Result**</br></br>
-  ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/23c92cd3-6f76-4517-8543-af6eb5fc2bb9) </br></br>
+  ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/2fe44593-3889-43f2-9a91-a5eec67d99a6) </br></br>
 
 **SVM Model** </br></br>
-  ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/54fb94ba-5621-456c-b349-eee7f47feff4) </br></br>
+ ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/9c21ea6a-c3f6-4269-9cf0-08e08d7595a4) </br></br>
+ 
   **Result**</br></br>
-  ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/0e872ac1-aa71-4998-9a93-c88c838cf778) </br></br>
+ ![image](https://github.com/jyojay/MONU_Project_4/assets/132628129/dd017a69-5b8c-4e29-be7b-25cff985d7d4) </br></br>
 
-**SVM Model was observed to have a better accuracy, recall and precision**
+**SVM Model was observed to have a better accuracy, recall and precision than Naive Bayes CLassification model**
 
 2) **RNN-LSTM Models**
   -	The data was split into Train and Test data at 3:1 ratio.
@@ -183,7 +183,7 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
 
   **It was observed on training the model with an embedding layer, 1 Bidirectional LSTM layer, a relu and an output sigmoid layer, that the accuracy reached 1 in 3 epochs itself when run for 5 epochs so on a clean code run, only 3 epochs were run**</br></br>
   
-**SVM,  Naïve Bayes and BiLSTM had high accuracy (>90%), recall and precision. SVM and BiLSTM were unit tested. BiLSTM had the best accuracy of 99.8%**
+**BiLSTM had the best accuracy of 99.8%**
 
 #### Limitations
 
