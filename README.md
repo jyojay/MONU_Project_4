@@ -245,7 +245,7 @@ The input data was tokenized to numeric form using TensorFlow/Keras Tokenizer an
 
 ***
 ## Note on execution of code: 
-DataExploration.ipynb code should be executed before running any other modules in order to generate a merged cleaned input file.
+`DataExploration.ipynb` code should be executed before running any other modules in order to generate a merged cleaned input file.
 
 ## Disclaimer
 
