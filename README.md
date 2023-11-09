@@ -29,7 +29,7 @@ This repository is organized into several directories and key files as follows:
 - `/Resources/`: Raw CSV files of fake and true news articles used for analysis.
 - `DataExploration.ipynb`: Jupyter notebook for initial data exploration and analysis.
 - `SentimentAnalysis.ipynb`: Jupyter notebook for conducting sentiment analysis on the dataset.
-- `DataModelling_SVM_NB.ipynb`: Notebook containing code for machine learning modelling using Naive Bayes and Support Vector Machines classifiers. This also includes unit testing for the preferred successful model.
+- `DataModelling_SVM_NB.ipynb`: Notebook containing code for machine learning modelling using Naive Bayes and Support Vector Machines classifiers.
 - `model_svm.pkl`: Support Vector Machines classification model.
 - `model_naive.pkl`: Naive Bayes classification model.
 - `DataModelling_LSTM.ipynb`: Notebook containing code for Neural Network modelling using RNN-LSTM/BiLSTM. This also includes unit testing for the successful model.
